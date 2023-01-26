@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.nav-container {
+  background-color: #ffffff;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.web-logo {
+  width: 50px;
+  height: 50px;
+}
+.hanberger-icon-button {
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.hamberger-icon {
+  height: 40px;
+  width: 40px;
+}
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.close-Icon {
+  align-self: flex-end;
+}
+.nav-link {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 400;
+}

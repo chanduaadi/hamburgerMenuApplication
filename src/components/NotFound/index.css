@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.not-found-img {
+  height: 400px;
+  width: 400px;
+}
